@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
+
 import './App.css';
 // Components
-import LabButton from './components/LabButton';
+// import LabButton from './components/LabButton';
+// import LabCard from './components/LabCard';
 // import LabFont from './components/LabFont';
+import Main from './containers/Main'
 
 class App extends Component {
   render() {
@@ -11,11 +14,11 @@ class App extends Component {
         <header className="App-header">
           <h1 className="App-title">Welcome to Laboratorify</h1>
         </header>
-        <p className="App-intro">
-          <LabButton className="lab-lg">Large Button</LabButton>
-          <LabButton>Default Button</LabButton>
-          <LabButton className="lab-sm">Small Button</LabButton>
-        </p>
+        <div className="container-fluid">
+        <div className="App-intro row">
+          <Main className="col-sm-12" />
+        </div>
+        </div>
       </div>
     );
   }
