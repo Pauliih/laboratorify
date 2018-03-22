@@ -13,8 +13,8 @@ class App extends Component {
         </header>
         <p className="App-intro">
           <LabButton className="lab-lg">Large Button</LabButton>
-          <LabButton className="lab-md"> Medium Button</LabButton>
-          <LabButton className="lab-sm"> Button small</LabButton>
+          <LabButton>Default Button</LabButton>
+          <LabButton className="lab-sm">Small Button</LabButton>
         </p>
       </div>
     );
