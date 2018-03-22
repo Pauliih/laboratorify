@@ -5,15 +5,14 @@ import './App.css';
 // import LabButton from './components/LabButton';
 // import LabCard from './components/LabCard';
 // import LabFont from './components/LabFont';
-import Main from './containers/Main'
+import Main from './containers/Main';
+import Header from './containers/Header.jsx';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">Welcome to Laboratorify</h1>
-        </header>
+        <Header/>
         <div className="container-fluid">
         <div className="App-intro row">
           <Main className="col-sm-12" />
