@@ -1,7 +1,18 @@
 import React, { Component } from 'react';
-import './Navigator.css';
+import './styles.css';
 
 class Navigator extends Component {
+  handleContent = (event) => {
+    const buttons = document.getElementById('buttons');
+    const cards = document.getElementById('cards');
+    const content = document.getElementById('content');
+    const typography = document.getElementById('typography');
+
+    typography.classList.add('hidden');
+    content.classList.remove('hidden');
+    buttons.classList.add('hidden');
+    cards.classList.add('hidden');
+  }
   render() {
     return (
       <nav className="navbar navbar-expand-lg fixed-top navbar-light bg-lab navHorizontal">
@@ -12,7 +23,7 @@ class Navigator extends Component {
         <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
           <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
             <li className="nav-item active">
-              <a className="nav-link" href="#">Contenido <span className="sr-only">(current)</span></a>
+              <a onClick={this.handleContent} className="nav-link" href="#">Contenido <span className="sr-only">(current)</span></a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">Visuales</a>

@@ -1,7 +1,7 @@
 .verticalNav {
   border-right: 2px solid #000;
   background-color: #FFE521;
-  height: 100vh;
+  min-height: 100vh!important;
 }
 
 .verticalNav a {

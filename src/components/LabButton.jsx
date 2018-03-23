@@ -79,7 +79,7 @@ class LabButton extends Component {
     };
 
     return (
-      <button style={laboratorify}>
+      <button type="button" className="btn" style={laboratorify}>
         {this.props.children}
       </button>
     );

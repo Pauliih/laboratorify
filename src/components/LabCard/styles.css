@@ -1,7 +1,30 @@
 .card {
-  width: 30%;
+  width: 50%;
+  margin-bottom: 1em;
+  min-height: 100vh;
 }
 
 .card-body {
   background-color: #FFE521;
+  overflow: hidden;
 }
+
+.card-text {
+  background-color: #56F89A;
+  padding: 0.6em;
+}
+
+.card-bg-img {
+  /* background-image: url('./../../assets/img/brackets/brackets-07.png'); */
+  /* background-repeat: no-repeat; */
+  margin-left: -6em;
+  margin-bottom: -5.5em;
+  width: 60%;
+  }
+
+.card-img-logo {
+  width: 50%;
+  margin-right: -5em;
+  margin-bottom: -1.5em;
+}
+

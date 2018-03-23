@@ -2,6 +2,7 @@
   padding-left: 2em!important;
   padding-top: 2em;
   text-align: center;
+  min-height: 100vh;
 }
 
 #buttons button {

@@ -9,12 +9,16 @@ import CodigoBTN from './../CodigoBTN/CodigoBTN.jsx';
 import CodigoBTNGreen from './../../components/CodigoBTN/CodigoBTNGreen.jsx';
 import CodigoBTNMagneta from './../../components/CodigoBTN/CodigoBTNMagenta.jsx';
 import './styles.css';
+import Content from '../Content/Content';
 
 class ContentDetail extends Component {
   render() {
     return (
       <div className="content-detail col-sm-10">
-        <div id="buttons" className="row">
+        <div id="content">
+          <Content />
+        </div>
+        <div id="buttons" className="row hidden">
           <div className="col-12">
             <LabButton className="lab-lg">Large Button</LabButton>
             <LabButton>Default Button</LabButton>

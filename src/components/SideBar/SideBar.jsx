@@ -6,18 +6,21 @@ class SideBar extends Component {
     const buttons = document.getElementById('buttons');
     const cards = document.getElementById('cards');
     const typography = document.getElementById('typography');
-    // const Ca = document.getElementById('btnCa');
+    const content = document.getElementById('content');
+
+    content.classList.add('hidden');
     buttons.classList.remove('hidden');
     cards.classList.add('hidden');
     typography.classList.add('hidden');
-    
   }
   handleCards = (event) => {
     const buttons = document.getElementById('buttons');
     const cards = document.getElementById('cards');
     const typography = document.getElementById('typography');
-    // const Ca = document.getElementById('btnCa');
+    const content = document.getElementById('content');
+
     buttons.classList.add('hidden');
+    content.classList.add('hidden');
     cards.classList.remove('hidden');
     typography.classList.add('hidden');
   }
@@ -25,9 +28,12 @@ class SideBar extends Component {
     const buttons = document.getElementById('buttons');
     const cards = document.getElementById('cards');
     const typography = document.getElementById('typography');
-    // const Ca = document.getElementById('btnCa');
+    const content = document.getElementById('content');
+
+
     buttons.classList.add('hidden');
     cards.classList.add('hidden');
+    content.classList.add('hidden');
     typography.classList.remove('hidden');
   }
   // handleCa = (event) => {
