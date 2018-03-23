@@ -8,33 +8,47 @@ class SideBar extends Component {
     const typography = document.getElementById('typography');
     const content = document.getElementById('content');
     const colors = document.getElementById('colors');
+    const logo = document.getElementById('logo');
+    const brackets = document.getElementById('brackets');
 
+    brackets.classList.add('hidden');
+    logo.classList.add('hidden');
     content.classList.add('hidden');
     buttons.classList.remove('hidden');
     cards.classList.add('hidden');
     typography.classList.add('hidden');
     colors.classList.add('hidden');
   }
+
   handleCards = (event) => {
     const buttons = document.getElementById('buttons');
     const cards = document.getElementById('cards');
     const typography = document.getElementById('typography');
     const content = document.getElementById('content');
     const colors = document.getElementById('colors');
+    const logo = document.getElementById('logo');
+    const brackets = document.getElementById('brackets');
 
+    brackets.classList.add('hidden');
+    logo.classList.add('hidden');
     buttons.classList.add('hidden');
     content.classList.add('hidden');
     cards.classList.remove('hidden');
     typography.classList.add('hidden');
     colors.classList.add('hidden');
   }
+
   handleTypography = (event) => {
     const buttons = document.getElementById('buttons');
     const cards = document.getElementById('cards');
     const typography = document.getElementById('typography');
     const content = document.getElementById('content');
     const colors = document.getElementById('colors');
+    const logo = document.getElementById('logo');
+    const brackets = document.getElementById('brackets');
 
+    brackets.classList.add('hidden');
+    logo.classList.add('hidden');
     buttons.classList.add('hidden');
     cards.classList.add('hidden');
     content.classList.add('hidden');
@@ -47,21 +61,51 @@ class SideBar extends Component {
     const typography = document.getElementById('typography');
     const content = document.getElementById('content');
     const colors = document.getElementById('colors');
+    const logo = document.getElementById('logo');
+    const brackets = document.getElementById('brackets');
 
+    brackets.classList.add('hidden');
+    logo.classList.add('hidden');
     buttons.classList.add('hidden');
     cards.classList.add('hidden');
     content.classList.add('hidden');
     typography.classList.add('hidden');
-    colors.classList.remove('hidden');
-  }  
-  // handleCa = (event) => {
-  //   const Ar = document.getElementById('btnAr');
-  //   const Te = document.getElementById('btnTe');
-  //   const Ca = document.getElementById('btnCa');
-  //   Te.classList.add('hidden');
-  //   Ar.classList.add('hidden');
-  //   Ca.classList.remove('hidden');
-  // }
+    colors.classList.remove('hidden');    
+  }
+
+  handleLog = (event) => {
+    const buttons = document.getElementById('buttons');
+    const cards = document.getElementById('cards');
+    const typography = document.getElementById('typography');
+    const content = document.getElementById('content');
+    const colors = document.getElementById('colors');
+    const logo = document.getElementById('logo');
+    const brackets = document.getElementById('brackets');
+
+    brackets.classList.add('hidden');
+    logo.classList.remove('hidden');
+    buttons.classList.add('hidden');
+    cards.classList.add('hidden');
+    content.classList.add('hidden');
+    typography.classList.add('hidden');
+    colors.classList.add('hidden');    
+  }
+  handleBra = (event) => {
+    const buttons = document.getElementById('buttons');
+    const cards = document.getElementById('cards');
+    const typography = document.getElementById('typography');
+    const content = document.getElementById('content');
+    const logo = document.getElementById('logo');
+    const brackets = document.getElementById('brackets');
+
+    brackets.classList.remove('hidden');
+    logo.classList.add('hidden');
+    buttons.classList.add('hidden');
+    cards.classList.add('hidden');
+    content.classList.add('hidden');
+    typography.classList.add('hidden');
+  }
+
   render() {
     return (
       <div className="col-sm-2 verticalNav">
@@ -70,10 +114,9 @@ class SideBar extends Component {
           <a onClick={this.handleCards} className="nav-link">Cards</a>
           <a onClick={this.handleTypography} className="nav-link">Typography</a>
           <a onClick={this.handleColors} className="nav-link">Colors</a>
-          <a className="nav-link" disabled>-</a>
-
-          {/* <a onClick={this.handle} className="nav-link" href="#">Link</a>
-          <a onClick={this.handle} className="nav-link disabled" href="#">Disabled</a> */}
+          <a onClick={this.handleLog} className="nav-link">Logos</a>
+          <a onClick={this.handleBra} className="nav-link">Brackets</a>
+          <a className="nav-link x">-</a>
         </nav>
       </div>
     );

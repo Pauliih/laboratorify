@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
 // Components
-// import LabButton from './components/LabButton';
-// import LabCard from './components/LabCard';
-// import LabFont from './components/LabFont';
 import Main from './containers/Main';
 import Header from './containers/Header.jsx';
 import '../src/App.css';

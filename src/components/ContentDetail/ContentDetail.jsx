@@ -12,6 +12,8 @@ import Content from '../Content/Content';
 import Colors from '../Colors/Colors';
 import LabCardUx from '../LabCards/LabCardUx';
 import './styles.css';
+import Logo from '../Logo/Logo';
+import Brackets from '../Brackets/Brackets';
 
 class ContentDetail extends Component {
   render() {
@@ -49,6 +51,24 @@ class ContentDetail extends Component {
         </div>
         <div id="colors" className="hidden">
           <Colors />
+        </div>
+        <div id="logo" className="hidden">
+          <Logo name="with-phrase"/>
+          <Logo name="without-phrase" />
+          <Logo name="with-phrase-bk" />
+          <Logo name="without-phrase-bk" />
+        </div>
+        <div id="brackets" className="hidden">
+          <Brackets name="yellow-paint2" />
+          <Brackets name="yellow-paint1" />
+          <Brackets name="yellow-paint" />
+          <Brackets name="green-paint2" />
+          <Brackets name="green-paint1" />
+          <Brackets name="green-paint" />
+          <Brackets name="magenta-paint2" />
+          <Brackets name="magenta-paint1" />
+          <Brackets name="magenta-paint" />
+          <Brackets name="white-paint" />
         </div>
       </div>
     );

@@ -5,3 +5,7 @@
 .bg-lab {
   background-color: #F5F5F5;
 }
+.img-fluid2 {
+  height: 40px;
+  width: auto;
+}

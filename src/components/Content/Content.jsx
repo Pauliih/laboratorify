@@ -10,8 +10,8 @@ class Content extends Component {
         <br/>
         <h2 className="title">Contenido del producto</h2>
         <br/>
-        <p className="textSize line">Evolución de nuestra identidad visual, para que comunique mejor todo lo que somos y queremos llegar a ser.</p>
-        <br/>
+        <p className="textSize">Evolución de nuestra identidad visual, para que comunique mejor todo lo que somos y queremos llegar a ser.</p>
+        <div className="dropdown-divider magent"></div>
         <p className="textSize">Nuestros estándares de contenido lo ayudarán a comprender cómo pensar estratégicamente para entregar un mejor producto. También te darán sugerencias claras y tácticas diseñadas para ayudarte a usar el lenguaje para crear mejores experiencias.</p>
         <br/>
         <div className="row justify-content-center">

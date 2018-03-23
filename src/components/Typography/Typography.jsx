@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Typography.css';
-import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap/dist/css/bootstrap.css';
+import 'jquery';
 
 class Typography extends Component {
   render() {
