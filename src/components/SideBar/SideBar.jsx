@@ -110,10 +110,10 @@ class SideBar extends Component {
     return (
       <div className="col-sm-2 verticalNav">
         <nav className="nav flex-column fixed-left col-sm-2">
-          <a onClick={this.handleBtns} className="nav-link active">Buttons</a>
-          <a onClick={this.handleCards} className="nav-link">Cards</a>
-          <a onClick={this.handleTypography} className="nav-link">Typography</a>
-          <a onClick={this.handleColors} className="nav-link">Colors</a>
+          <a onClick={this.handleBtns} className="nav-link active">Botones</a>
+          <a onClick={this.handleCards} className="nav-link">Tarjetas</a>
+          <a onClick={this.handleTypography} className="nav-link">Tipografía</a>
+          <a onClick={this.handleColors} className="nav-link">Colores</a>
           <a onClick={this.handleLog} className="nav-link">Logos</a>
           <a onClick={this.handleBra} className="nav-link">Brackets</a>
           <a className="nav-link x">-</a>
