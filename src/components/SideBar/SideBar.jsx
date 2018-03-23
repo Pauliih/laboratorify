@@ -5,16 +5,30 @@ class SideBar extends Component {
   handleBtns = (event) => {
     const buttons = document.getElementById('buttons');
     const cards = document.getElementById('cards');
+    const typography = document.getElementById('typography');
     // const Ca = document.getElementById('btnCa');
     buttons.classList.remove('hidden');
     cards.classList.add('hidden');
+    typography.classList.add('hidden');
+    
   }
   handleCards = (event) => {
     const buttons = document.getElementById('buttons');
     const cards = document.getElementById('cards');
+    const typography = document.getElementById('typography');
     // const Ca = document.getElementById('btnCa');
     buttons.classList.add('hidden');
     cards.classList.remove('hidden');
+    typography.classList.add('hidden');
+  }
+  handleTypography = (event) => {
+    const buttons = document.getElementById('buttons');
+    const cards = document.getElementById('cards');
+    const typography = document.getElementById('typography');
+    // const Ca = document.getElementById('btnCa');
+    buttons.classList.add('hidden');
+    cards.classList.add('hidden');
+    typography.classList.remove('hidden');
   }
   // handleCa = (event) => {
   //   const Ar = document.getElementById('btnAr');
@@ -30,6 +44,7 @@ class SideBar extends Component {
         <nav className="nav flex-column fixed-left col-sm-2">
           <a onClick={this.handleBtns} className="nav-link active">Buttons</a>
           <a onClick={this.handleCards} className="nav-link">Cards</a>
+          <a onClick={this.handleTypography} className="nav-link">Typography</a>
           <a className="nav-link" disabled>-</a>
 
           {/* <a onClick={this.handle} className="nav-link" href="#">Link</a>

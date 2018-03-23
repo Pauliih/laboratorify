@@ -37,7 +37,9 @@ class ContentDetail extends Component {
         <div id="cards" className="hidden">
           <LabCard />
         </div>
-        <Typography />
+        <div id="typography" className="hidden">
+          <Typography />
+        </div>
       </div>
     );
   }
