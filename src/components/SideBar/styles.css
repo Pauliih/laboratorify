@@ -1,13 +1,13 @@
 .verticalNav {
-  border-right: 2px solid #000;
-  background-color: #FFE521;
+  border-right: 1px solid #B0B6BD;
+  background-color: #F5F5F5;
   min-height: 100vh!important;
 }
 
 .verticalNav a {
   cursor: pointer;
   color: #000;
-  border-top: 1px solid black;
+  border-bottom: 1px solid #B0B6BD;
   width: 100%;
 }
 .verticalNav a:hover {
@@ -22,4 +22,7 @@
 
 .hidden{
   display: none!important;
+}
+.navbar-brand {
+  margin-right: 6.5rem;
 }
