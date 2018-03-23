@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types'; // ES6
 
-class LabButtonPink extends Component {
+class LabButtonMagenta extends Component {
   render() {
     var laboratorify = {};
 
@@ -60,7 +60,7 @@ class LabButtonPink extends Component {
     }
 
     // Proptypes
-    LabButtonPink.propTypes = {
+    LabButtonMagenta.propTypes = {
       laboratorify: PropTypes.shape({
         cursor: PropTypes.string,
         backgroundColor: PropTypes.string,
@@ -86,4 +86,4 @@ class LabButtonPink extends Component {
   }
 }
 
-export default LabButtonPink;
+export default LabButtonMagenta;

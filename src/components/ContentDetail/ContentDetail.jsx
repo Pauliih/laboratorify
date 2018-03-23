@@ -2,8 +2,11 @@ import React, { Component } from 'react';
 //Components
 import LabButton from "./../LabButton";
 import LabButtonGreen from "./../LabButtonGreen";
-import LabButtonPink from "./../LabButtonPink";
+import LabButtonMagenta from "./../LabButtonMagenta";
 import LabCard from "../LabCard";
+import CodigoBTN from './../CodigoBTN/CodigoBTN.jsx';
+import CodigoBTNGreen from './../../components/CodigoBTN/CodigoBTNGreen.jsx';
+import CodigoBTNMagneta from './../../components/CodigoBTN/CodigoBTNMagenta.jsx';
 import './styles.css';
 
 class ContentDetail extends Component {
@@ -15,18 +18,21 @@ class ContentDetail extends Component {
             <LabButton className="lab-lg">Large Button</LabButton>
             <LabButton>Default Button</LabButton>
             <LabButton className="lab-sm">Small Button</LabButton>
+            <CodigoBTN/>
           </div>
-          <div className="col-12">          
+          <div className="col-12">
             <LabButtonGreen className="lab-lg">Large Button</LabButtonGreen>
             <LabButtonGreen>Default Button</LabButtonGreen>
             <LabButtonGreen className="lab-sm">Small Button</LabButtonGreen>
-          </div> 
-          <div className="col-12">
-            <LabButtonPink className="lab-lg">Large Button</LabButtonPink>
-            <LabButtonPink>Default Button</LabButtonPink>
-            <LabButtonPink className="lab-sm">Small Button</LabButtonPink>
+            <CodigoBTNGreen/>
           </div>
-        </div>         
+          <div className="col-12">
+            <LabButtonMagenta className="lab-lg">Large Button</LabButtonMagenta>
+            <LabButtonMagenta>Default Button</LabButtonMagenta>
+            <LabButtonMagenta className="lab-sm">Small Button</LabButtonMagenta>
+            <CodigoBTNMagneta/>
+          </div>
+        </div>
         <div id="cards" className="hidden">
           <LabCard />
         </div>
