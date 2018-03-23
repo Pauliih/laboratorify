@@ -24,22 +24,38 @@ class ContentDetail extends Component {
         </div>
         <div id="buttons" className="row hidden">
           <div className="col-12">
+            <h2>Button</h2>
+            <hr/>
+          </div>
+          <div className="col-12">
             <LabButton className="lab-lg">Large Button</LabButton>
             <LabButton>Default Button</LabButton>
             <LabButton className="lab-sm">Small Button</LabButton>
-            <CodeBtn/>
+            <div className="row justify-content-center">
+              <div className="col-6">
+                <CodeBtn/>
+              </div>
+            </div>
           </div>
           <div className="col-12">
             <LabButtonGreen className="lab-lg">Large Button</LabButtonGreen>
             <LabButtonGreen>Default Button</LabButtonGreen>
             <LabButtonGreen className="lab-sm">Small Button</LabButtonGreen>
-            <CodeBtnGreen/>
+            <div className="row justify-content-center">
+              <div className="col-6">
+                <CodeBtnGreen/>
+              </div>
+            </div>
           </div>
           <div className="col-12">
             <LabButtonMagenta className="lab-lg">Large Button</LabButtonMagenta>
             <LabButtonMagenta>Default Button</LabButtonMagenta>
             <LabButtonMagenta className="lab-sm">Small Button</LabButtonMagenta>
-            <CodeBtnMagneta/>
+            <div className="row justify-content-center">
+              <div className="col-6">
+                <CodeBtnMagneta/>
+              </div>
+            </div>
           </div>
         </div>
         <div id="cards" className="hidden">
