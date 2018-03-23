@@ -1,4 +1,10 @@
 .content-detail {
   padding-left: 2em!important;
   padding-top: 2em;
+  text-align: center;
 }
+
+#buttons button {
+  margin: 0.8em;
+}
+
