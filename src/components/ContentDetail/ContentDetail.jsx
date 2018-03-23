@@ -10,6 +10,7 @@ import CodigoBTNGreen from './../../components/CodigoBTN/CodigoBTNGreen.jsx';
 import CodigoBTNMagneta from './../../components/CodigoBTN/CodigoBTNMagenta.jsx';
 import './styles.css';
 import Content from '../Content/Content';
+import Colors from '../Colors/Colors';
 
 class ContentDetail extends Component {
   render() {
@@ -43,6 +44,9 @@ class ContentDetail extends Component {
         </div>
         <div id="typography" className="hidden">
           <Typography />
+        </div>
+        <div id="colors" className="hidden">
+          <Colors />
         </div>
       </div>
     );

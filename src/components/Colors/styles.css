@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.title1{
+  margin: 5% 0;
+}
+
+.yellow{
+  background-color: #FFE521;
+  width: 300px;
+  height: 100px;
+  margin: 5% 21%;
+}
+
+.magenta{
+  background-color: #FF009E;
+  width: 150px;
+  height: 60px;
+  margin: 2% 0;
+  display: inline-block;
+}
+
+.green{
+  background-color: #56F89A;
+  width: 150px;
+  height: 60px;
+  margin: 2% 0;
+  display: inline-block;
+}
+
+.line{
+  display: inline-block;
+  margin: 2% 10% 2% 0;
+  width: 150px;
+  height: 140px;
+  padding-top: 2%;
+}
+
+.line p{
+  padding-top: 2%;
+}
+
+.yellow2{
+  background-color: #FFE521;
+}
+
+.black2{
+  background-color: black;
+  color: white;
+
+}
+
+.magenta2{
+  background-color: #FF009E;
+  color: white;
+}
+
+.green2{
+  background-color: #56F89A;
+}
