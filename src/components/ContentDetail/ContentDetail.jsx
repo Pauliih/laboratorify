@@ -14,6 +14,7 @@ import LabCardUx from '../LabCards/LabCardUx';
 import './styles.css';
 import Logo from '../Logo/Logo';
 import Brackets from '../Brackets/Brackets';
+import Documentation from '../Documentation/Documantation';
 
 class ContentDetail extends Component {
   render() {
@@ -85,6 +86,9 @@ class ContentDetail extends Component {
           <Brackets name="magenta-paint1" />
           <Brackets name="magenta-paint" />
           <Brackets name="white-paint" />
+        </div>
+        <div id="documentation" className="hidden">
+          <Documentation />
         </div>
       </div>
     );

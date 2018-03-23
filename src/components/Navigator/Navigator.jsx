@@ -17,6 +17,23 @@ class Navigator extends Component {
     buttons.classList.add('hidden');
     cards.classList.add('hidden');
   }
+  handleDoc = (event) => {
+    const buttons = document.getElementById('buttons');
+    const cards = document.getElementById('cards');
+    const content = document.getElementById('content');
+    const typography = document.getElementById('typography');
+    const logo = document.getElementById('logo');
+    const brackets = document.getElementById('brackets');
+    const documentation = document.getElementById('documentation');
+
+    documentation.classList.remove('hidden');
+    brackets.classList.add('hidden');
+    logo.classList.add('hidden');
+    typography.classList.add('hidden');
+    content.classList.add('hidden');
+    buttons.classList.add('hidden');
+    cards.classList.add('hidden');
+  }
   render() {
     return (
       <nav className="navbar navbar-expand-lg fixed-top navbar-light bg-lab navHorizontal">
@@ -32,13 +49,7 @@ class Navigator extends Component {
               <a onClick={this.handleContent} className="nav-link" href="#">Contenido <span className="sr-only">(current)</span></a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Visuales</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">Componentes</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">Recursos adicionales</a>
+              <a onClick={this.handleDoc} className="nav-link" href="#">Documentation</a>
             </li>
           </ul>
         </div>
