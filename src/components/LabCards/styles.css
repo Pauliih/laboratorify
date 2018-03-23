@@ -1,4 +1,4 @@
-.card {
+.card, .card-ux {
   width: 50%;
   margin-bottom: 1em;
   min-height: 100vh;
@@ -14,9 +14,12 @@
   padding: 0.6em;
 }
 
+.card-ux .card-text {
+  background-color: #FF009E;
+  padding: 0.6em;
+}
+
 .card-bg-img {
-  /* background-image: url('./../../assets/img/brackets/brackets-07.png'); */
-  /* background-repeat: no-repeat; */
   margin-left: -6em;
   margin-bottom: -5.5em;
   width: 60%;

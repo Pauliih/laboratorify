@@ -13,7 +13,7 @@ class LabCard extends Component {
           {/* Ocupar componente de titulo */}
           <h5 className="card-title">Front-end Developer</h5>
           <div className="card-text row">
-            <p className="col-4 text-left">Una front se preocupa de la visibipdad y la interacción que tiene una página o appcación web, </p>
+            <p className="col-4 text-left">Una front se preocupa de la visibilidad y la interacción que tiene una página o appcación web, </p>
             <p className="col-4 text-left">
               desde adentro. ¿Cómo? creando el código que los navegadores interpretan para mostrarlo visualmente.
             </p>
