@@ -20,7 +20,7 @@ class Typography extends Component {
               <p>Open Sans Regular</p>
             </div>
           </div>
-        <div classname="col-sm-12">
+        <div className="col-sm-12">
           <h2 className="text-left">Títulos</h2>
           <p className="text-justify">Los títulos se deben realizar con la tipografía Bitter Regular</p>
           <div className="col-sm-3">
