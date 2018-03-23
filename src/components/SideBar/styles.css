@@ -1,0 +1,20 @@
+.verticalNav {
+  border-right: 2px solid #000;
+  background-color: #FFE521;
+}
+
+.bg-lab {
+}
+
+.nav-sidebar {
+  height: 100%;
+}
+
+.nav-sidebar a{
+  color: #000;
+}
+
+.fixed-left {
+  position: fixed;
+  left: 0;
+}

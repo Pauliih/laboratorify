@@ -6,7 +6,7 @@ import SideBar from '../components/SideBar/SideBar';
 class Main extends Component {
   render() {
     return (
-      <div className="col-12">
+      <div className="main col-12">
         <div className="row">
           <SideBar />
           <ContentDetail />
