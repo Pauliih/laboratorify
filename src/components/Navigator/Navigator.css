@@ -1,3 +1,7 @@
 .navHorizontal {
   border-bottom: 2px solid #000;
 }
+
+.bg-lab {
+  background-color: #FFE521;
+}

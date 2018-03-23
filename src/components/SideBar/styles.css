@@ -1,0 +1,25 @@
+.verticalNav {
+  border-right: 2px solid #000;
+  background-color: #FFE521;
+  height: 100vh;
+}
+
+.verticalNav a {
+  cursor: pointer;
+  color: #000;
+  border-top: 1px solid black;
+  width: 100%;
+}
+.verticalNav a:hover {
+  background-color: rgba(0,0,0,0.2);
+}
+
+.verticalNav .fixed-left {
+  position: fixed;
+  left: 0;
+  padding: 0!important;
+}
+
+.hidden{
+  display: none!important;
+}
