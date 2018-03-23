@@ -28,8 +28,9 @@ class Typography extends Component {
             <p className="bitterRegular">Bitter</p>
             <p className="bitterRegular">Títulos</p>
           </div>  
-          <p>Encabezados</p>
+          <p>Ejemplos</p>
           <div className="list-group-item text-justify">
+            <p className="title1">Título </p>
             <p>font-size: 42px</p>
             <p>line-height: 44px</p>
             <p>font-weight: 500</p>

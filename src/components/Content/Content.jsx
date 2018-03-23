@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './styles.css';
-import logoActual from './../../assets/img/logos/logo-02.png';
+import logoActual from './../../assets/img/logos/logo-05.png';
 
 class Content extends Component {
   render() {
@@ -17,12 +17,12 @@ class Content extends Component {
         <div className="row justify-content-center">
           <div className="col-4">
             <img className="img-fluid" src={logoActual} alt="Logo antiguo" />
-            <p className="text-center">Logo antigüo</p>
+            <p className="text-center">Logo antigüo => Logo nuevo</p>
           </div>
-          <div className="col-4">
+          {/* <div className="col-4">
             <img className="img-fluid" src={logoActual} alt="Logo actual" />
             <p className="text-center">Logo nuevo</p>
-          </div>
+          </div> */}
         </div>
       </div>
     )
