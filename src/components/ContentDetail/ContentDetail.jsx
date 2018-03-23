@@ -1,15 +1,17 @@
 import React, { Component } from 'react';
 //Components
-import LabButton from "./../LabButton";
-import LabButtonGreen from "./../LabButtonGreen";
-import LabButtonMagenta from "./../LabButtonMagenta";
-import LabCard from "../LabCard";
+import LabButton from "./../Buttons/LabButton";
+import LabButtonGreen from "./../Buttons/LabButtonGreen";
+import LabButtonMagenta from "./../Buttons/LabButtonMagenta";
+import LabCard from "../LabCards/LabCard";
 import Typography from '../Typography/Typography';
-import CodigoBTN from './../CodigoBTN/CodigoBTN.jsx';
-import CodigoBTNGreen from './../../components/CodigoBTN/CodigoBTNGreen.jsx';
-import CodigoBTNMagneta from './../../components/CodigoBTN/CodigoBTNMagenta.jsx';
-import './styles.css';
+import CodeBtn from './../CodeBtn/CodeBtn.jsx';
+import CodeBtnGreen from './../../components/CodeBtn/CodeBtnGreen.jsx';
+import CodeBtnMagneta from './../../components/CodeBtn/CodeBtnMagenta.jsx';
 import Content from '../Content/Content';
+import LabCardUx from '../LabCards/LabCardUx';
+import './styles.css';
+
 
 class ContentDetail extends Component {
   render() {
@@ -23,23 +25,24 @@ class ContentDetail extends Component {
             <LabButton className="lab-lg">Large Button</LabButton>
             <LabButton>Default Button</LabButton>
             <LabButton className="lab-sm">Small Button</LabButton>
-            <CodigoBTN/>
+            <CodeBtn/>
           </div>
           <div className="col-12">
             <LabButtonGreen className="lab-lg">Large Button</LabButtonGreen>
             <LabButtonGreen>Default Button</LabButtonGreen>
             <LabButtonGreen className="lab-sm">Small Button</LabButtonGreen>
-            <CodigoBTNGreen/>
+            <CodeBtnGreen/>
           </div>
           <div className="col-12">
             <LabButtonMagenta className="lab-lg">Large Button</LabButtonMagenta>
             <LabButtonMagenta>Default Button</LabButtonMagenta>
             <LabButtonMagenta className="lab-sm">Small Button</LabButtonMagenta>
-            <CodigoBTNMagneta/>
+            <CodeBtnMagneta/>
           </div>
         </div>
         <div id="cards" className="hidden">
           <LabCard />
+          <LabCardUx />
         </div>
         <div id="typography" className="hidden">
           <Typography />

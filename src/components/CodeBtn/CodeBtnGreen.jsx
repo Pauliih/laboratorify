@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class CodigoBTNGreen extends Component {
+class CodeBtnGreen extends Component {
   render() {
     return (
       <figure>
@@ -30,4 +30,4 @@ class CodigoBTNGreen extends Component {
   }
 }
 
-export default CodigoBTNGreen;
+export default CodeBtnGreen;

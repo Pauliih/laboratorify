@@ -1,28 +1,28 @@
 import React, { Component } from 'react';
 
-class CodigoBTNMagneta extends Component {
+class CodeBtn extends Component {
   render() {
     return (
       <figure>
         <pre>
           <code>
-            <span>&lt;LabButtonMagenta className="lab-lg"&gt;</span>
+            <span>&lt;LabButton className="lab-lg"&gt;</span>
             <span>Large Button</span>
-           <span>&lt;LabButtonMagenta/&gt;</span>
+           <span>&lt;LabButton/&gt;</span>
           </code>
         </pre>
         <pre>
           <code>
-            <span>&lt;LabButtonMagenta&gt;</span>
+            <span>&lt;LabButton&gt;</span>
             <span>Default Button</span>
-            <span>&lt;LabButtonMagenta/&gt;</span>
+            <span>&lt;LabButton/&gt;</span>
           </code>
         </pre>
         <pre>
           <code>
-            <span>&lt;LabButtonMagenta className="lab-sm"&gt;</span>
+            <span>&lt;LabButton className="lab-sm"&gt;</span>
             <span>Small Button</span>
-            <span>&lt;LabButtonMagenta/&gt;</span>
+            <span>&lt;LabButton/&gt;</span>
           </code>
         </pre>
       </figure>
@@ -30,4 +30,4 @@ class CodigoBTNMagneta extends Component {
   }
 }
 
-export default CodigoBTNMagneta;
+export default CodeBtn;
